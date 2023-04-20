@@ -1,7 +1,13 @@
+import React from 'react'
 import { Button, Typography } from '@mui/material'
-
 import './App.css'
+
 function App() {
+  
+  React.useEffect(() => {
+    console.log("Hi from app");
+  }, [])
+
   return (
     <div className="App">
       <Typography variant='h1'>Mui React</Typography>
